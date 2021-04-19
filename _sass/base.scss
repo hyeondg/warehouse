@@ -1,15 +1,18 @@
-$base-font-size: 14px !default;
+$base-font-size: 18px !default;
+$base-code-size: 16px !default;
 $text-color: black;
 $line-color: rgb(250, 250, 250);
 
 body {
     color: $text-color;
+    font-size: $base-font-size;
     margin: 0;
     word-break: break-word;
     font-family: 'Caruta', 'Times New Roman', Times, serif;
 }
 
 .highlight {
+    font-size: $base-code-size;
     font-family: 'Cascadia', monospace;
 }
 
@@ -73,7 +76,7 @@ h3 {
 //}
 
 article {
-    padding: 0 3rem 0 3rem;
+    padding: 0 1rem 0 1rem;
     max-width: 900px;
     margin: auto;
 }
@@ -88,9 +91,9 @@ article {
 }
 
 @media only screen and (max-width: 600px) {
-    $base-font-size: 11px !default;
+    $base-font-size: 15px !default;
     article {
-        padding: 0 1rem 0 1rem;
+        padding: 0 0.5rem 0 0.5rem;
     }
 
     li {
