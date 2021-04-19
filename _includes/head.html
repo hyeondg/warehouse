@@ -6,7 +6,7 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/fontrender.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontrender.css">
     {% if page.mathjax %}{% include head/mathjax.html %}{% endif %}
     {% if jekyll.environment == 'production' and site.google_analytics %}{% include head/google-analytics.html %}{% endif %}
     {% if jekyll.environment == 'production' and site.twitter_cards %}{% include head/twitter-cards.html %}{% endif %}
