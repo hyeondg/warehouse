@@ -55,6 +55,4 @@ func interp(_ e: Expr, _ env: Env) -> Value
 
 ```
 
-
-
-*All the materials are from CS320 class held on KAIST, 2021 spring.*
+*All the materials are from CS320 class held on 2021 spring, KAIST.*

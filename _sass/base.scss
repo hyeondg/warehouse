@@ -1,4 +1,4 @@
-$base-font-size: 17px !default;
+$base-font-size: 18px !default;
 $base-code-size: 13px !default;
 $inline-code-size: 15px !default;
 $text-color: black;
@@ -21,6 +21,7 @@ code {
 code.language-plaintext {
     font-size: $inline-code-size;
     font-family: 'Cascadia', monospace;
+    background-color: #ff9597;
 }
 
 pre.highlight {

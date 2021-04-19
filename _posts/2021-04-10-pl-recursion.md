@@ -40,4 +40,4 @@ $$ \frac{\sigma' = \sigma[ x_1 \to \langle \lambda x_2 . e_1, \sigma ' \rangle] 
 
 
 
-*All the materials are from CS320 class held on KAIST, 2021 spring.*
+*All the materials are from CS320 class held on 2021 spring, KAIST.*
