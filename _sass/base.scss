@@ -1,4 +1,4 @@
-$base-font-size: 16px !default;
+$base-font-size: 17px !default;
 $base-code-size: 13px !default;
 $inline-code-size: 15px !default;
 $text-color: black;
@@ -24,7 +24,7 @@ code.language-plaintext {
 }
 
 pre.highlight {
-    line-height: 100%;
+    line-height: 90%;
 }
 
 hr {
@@ -32,6 +32,7 @@ hr {
 }
 
 ul {
+    line-height: 120%;
     margin: 10px;
 }
 
@@ -41,11 +42,16 @@ li {
     margin-bottom: 10px;
 }
 
-header,footer {
+header {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 2px;
+}
+
+footer {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .home {
