@@ -1,5 +1,6 @@
 $base-font-size: 18px !default;
-$base-code-size: 16px !default;
+$base-code-size: 13px !default;
+$inline-code-size: 16px !default;
 $text-color: black;
 $line-color: rgb(250, 250, 250);
 
@@ -12,8 +13,12 @@ body {
     font-family: 'Klien', 'Caruta', 'Times New Roman', Times, serif;
 }
 
+highlight {
+    font-size: $inline-code-size;
+    font-family: 'Cascadia', monospace;
+}
 
-code {
+pre.highlight {
     font-size: $base-code-size;
     font-family: 'Cascadia', monospace;
 }
