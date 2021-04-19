@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+<body>
+    <header>
+        <div style="display: inline-block">
+            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %}
+              <a href="{% include relative %}{{ my_page.url | relative_url }}">{{ my_page.title }}</a> |
+            {% endif %}{% endfor %}
+        </div>
+        
+    </header>
+    <hr>
+    <main>
+    <div>
+    {{ content }}
+    </div>
+    </main>
+    <hr>
+    <footer>
+        <center>
+        <div>
+            <span>© <script>document.write(new Date().getFullYear())</script> hyeondgl. All rights reserved.</span>
+        </div>
+        <div>
+            <!--
+            <a target="_blank" href="/">Loop.</a>
+            -->
+            <a href="/">Loop</a>
+        </div>
+        </center>
+    </footer>
+</body>
+</html>
