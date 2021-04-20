@@ -21,7 +21,9 @@ code {
 code.language-plaintext {
     font-size: $inline-code-size;
     font-family: 'Cascadia', monospace;
-    background-color: #ff9597;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8
 }
 
 pre.highlight {
