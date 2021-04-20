@@ -16,6 +16,8 @@ body {
 code {
     font-size: $base-code-size;
     font-family: 'Cascadia', monospace;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
 
 code.language-plaintext {
