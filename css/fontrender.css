@@ -2,3 +2,8 @@
     font-family: "Cascadia";
     src: "/assets/CascadiaCode.ttf" format("ttf");
 }
+
+@font-face {
+    font-family: "Ubuntu-Mono";
+    src: url(/assets/UbuntuMono-Regular.woff) format('woff');
+}
