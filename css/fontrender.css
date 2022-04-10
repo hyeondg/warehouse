@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Cascadia";
-    src: "/assets/CascadiaCode.ttf" format("ttf");
+    font-family: "Calibri";
+    src: url(/assets/Calibri.woff) format('woff');
 }
 
 @font-face {
